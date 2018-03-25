@@ -1,0 +1,31 @@
+{
+  "name": "simulation-restaurant",
+  "version": "1.0.0",
+  "description": "resteraunt-simulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js",
+    "client": "cd client && npm run start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcscheurer/simulation-restaurant.git"
+  },
+  "author": "Trevor Scheurer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcscheurer/simulation-restaurant/issues"
+  },
+  "homepage": "https://github.com/tcscheurer/simulation-restaurant#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "massive": "^4.7.1"
+  }
+}
